@@ -1,6 +1,14 @@
 {
     "cSpell.words": [
+        "flac",
         "Gandholi",
-        "Sridhar"
+        "isdir",
+        "isfile",
+        "pathlib",
+        "readlines",
+        "scandir",
+        "shutil",
+        "Sridhar",
+        "textfile"
     ]
 }

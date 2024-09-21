@@ -63,3 +63,13 @@ We should be knowing the full path to the file
     #  readlines(): this method return the list of strings of all the lines in the file
 
     Acronyms.py is the best example to display the read and write functionality of a file
+
+File Manipulation:
+    Python has several built-in modules for handling files: os, shutil, and pathlib
+
+    os module has useful methods in it, few of them are as below:
+    os.scandir() --> this helps to scan a particular directory and return the content available in it
+    os.path.isfile() --> this helps to define is the scanned content is a file or not
+    os.path.isdir() --> this helps to define is the scanned content is a directory or not
+    os.path.join() --> this helps to join to two strings by auto filling the / to create a proper path string
+    os.rename()  --> this helps to rename a file and also move a file to new path
