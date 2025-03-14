@@ -1,0 +1,17 @@
+# print("Hello")
+
+x = eval(input("Enter a number : "))
+try:
+    print(10/x)
+    y = 10/x
+    print(y)
+except ZeroDivisionError:
+    print("You can't divide by zero")
+except NameError:
+    print("Variable not defined")
+except:
+    print("generic handling routine")
+else:
+    print("No exception")
+finally:
+    print("This will always execute")
